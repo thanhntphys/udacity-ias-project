@@ -256,7 +256,7 @@ Resources:
       IamInstanceProfile: !Ref S3GetInstanceProfile
       SecurityGroups:
       - !Ref WebServerSecGroup
-      InstanceType: t2.micro
+      InstanceType: t3.small
       BlockDeviceMappings:
       - DeviceName: "/dev/sdk"
         Ebs:
